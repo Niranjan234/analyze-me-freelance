@@ -1,0 +1,153 @@
+/* General styling */
+.rowing {
+    margin: 0;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.col-md-6.d-flex.align-items-center.justify-content-center h1 {
+    font-size: 2.5rem;
+}
+
+/* Pills nav styling */
+.nav.nav-pills.nav-justified.mb-3 {
+    display: flex;
+    padding: 0;
+}
+
+.form-control::placeholder {
+    color: rgba(108, 117, 125, 0.571) !important;
+    opacity: 0.8 !important;
+}
+
+.sign-in-text {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+  
+}
+
+.password {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #302E3C;
+}
+
+.loginPageTitle{
+    font-family: Poppins;
+    font-size: 35px;
+    margin-top: 41px;
+    margin-left: 70px;
+    font-weight: 700;
+    line-height: 52.5px;
+    text-align: left;
+    color: #000000;
+    opacity: 0px;
+}
+
+.loginPageSubTitle{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #605C70;
+    margin-top: 440px;
+    margin-left: 70px;
+
+}
+
+.sign-btn {
+    width: 202px; /* Updated width */
+    height: 56px; /* Updated height */
+    padding: 16px 10px; 
+    margin-top: 40px;
+    color: #FFFFFF; /* Text color */
+    background: linear-gradient(90deg, #ACACAC -12.59%, #484848 114.44%);
+    border-radius: 28px;
+    opacity: 1; 
+    border: none; /* Optional: remove border if needed */
+    text-align: center; /* Center text */
+}
+
+
+
+/* Active state for the buttons */
+.nav-link.active {
+    background-color: #969696 !important;
+    color: hsl(0, 0%, 100%) !important;
+}
+
+/* Non-active state for the buttons */
+.nav-link:not(.active) {
+    background-color: rgba(169, 169, 169, 0.3) !important;
+    color: hsla(0, 7%, 3%, 0.664) !important;
+}
+
+/* Tab content height */
+.tab-content {
+    height: 400px;
+}
+
+/* Social sign-in buttons */
+.btn-link.btn-floating {
+    margin: 0 5px;
+}
+
+/* Form inputs */
+.form-outline input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-outline label {
+    margin-top: 5px;
+    font-size: 0.9rem;
+}
+
+/* Buttons */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+/* Checkbox and text alignment */
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    font-size: 0.9rem;
+}
+
+/* Link styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.next-btn {
+    color: #FFFFFF !important; 
+    background: linear-gradient(90deg, #ACACAC -12.59%, #484848 114.44%);
+    border-radius: 28px  !important;
+    opacity: 1  !important; 
+    border: none  !important;
+    padding: 8px 8px  !important; 
+    width: 152px !important; 
+    height: 40px !important;
+}
